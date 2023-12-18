@@ -24,9 +24,7 @@ function Navbar() {
             </ul>:
             <ul>
             <li><Link  to="/"> Home </Link></li>
-            <li><Link to="../Pages/About"> About </Link></li>
-            <li><Link to="../Pages/Contact"> Contact </Link></li>
-                      
+                                 
           </ul>
         }
         </div>
