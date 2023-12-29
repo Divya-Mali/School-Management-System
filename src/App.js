@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
 import Home from './Pages/Home';
-import About from './Pages/About';
 import Login from './Pages/Login';
 import AdminDashboard from "./Pages/AdminDashbord";
 import TeacherDashboard from "./Pages/TeacherDashboard"
@@ -31,7 +30,6 @@ function App() {
       <Navbar />
           <Routes>
           <Route path='/' exact element={<Home/>}></Route>
-          <Route path='/Pages/About' exact element={<About/>}></Route>
           <Route path='/Pages/Login' exact element={<Login/>}></Route>
 
           <Route element={<PrivateComponent/>}>
